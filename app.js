@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Crear ruta automáticamente
 
-  destinos.forEach(destino => {
+ window.destinos.forEach(destino => {
 
     const tarjeta = document.createElement("div");
 
