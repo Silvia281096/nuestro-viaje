@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nuestro viaje ❤️</title>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <script src="data/destinos.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+
+  <!-- Música -->
+  <audio id="musicaPrincipal" loop>
+    <source src="audio/sky_full_of_stars.mp3" type="audio/mpeg">
+  </audio>
+
+  <audio id="musicaGarrix">
+    <source src="audio/repeat_it.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- PORTADA -->
+
+  <section class="hero">
+
+    <div class="hero-contenido">
+
+      <h1>🗺️ Nuestro viaje ❤️</h1>
+
+      <p class="subtitulo">
+        Un recorrido por todos los momentos vividos y los que nos quedan por vivir.
+      </p>
+
+      <div class="botones-portada">
+
+        <button id="btnMusica">
+          🎵 Activar banda sonora
+        </button>
+
+        <button id="btnComenzar">
+          🚀 Comenzar aventura
+        </button>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- RUTA -->
+
+  <section id="ruta" class="ruta">
+
+    <h2>✨ Nuestra aventura</h2>
+
+    <div id="timeline"></div>
+
+  </section>
+
+  <!-- BONUS TRACKS -->
+
+  <section class="bonus">
+
+    <h2>🎁 Bonus Tracks</h2>
+
+    <div class="bonus-grid">
+
+      <div class="bonus-card">
+        <h3>🍔 Cena VICIO</h3>
+        <p>Bono desbloqueable para una cena VICIO.</p>
+      </div>
+
+      <div class="bonus-card">
+        <h3>🎡 Tarde de Feria</h3>
+        <p>Vale oficial para una tarde de feria.</p>
+      </div>
+
+      <div class="bonus-card" id="bonusGarrix">
+        <h3>🎧 Martin Garrix</h3>
+
+        <p>
+          Queda menos para ver a tu DJ favorito y perseguirlo por las calles de Santiago.
+        </p>
+
+        <div id="contador"></div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- FUTURO -->
+
+  <section class="futuro">
+
+    <h2>🔒 Próximas misiones</h2>
+
+    <div class="misiones">
+
+      <div class="mision">🗽 Nueva York</div>
+
+      <div class="mision">🏮 China</div>
+
+      <div class="mision">❄️ Winterland Londres</div>
+
+      <div class="mision">🎡 Feria de Alemania</div>
+
+      <div class="mision">🚆 Ruta Europea</div>
+
+    </div>
+
+  </section>
+
+  <!-- HOGAR -->
+
+  <section class="hogar">
+
+    <h2>🏡 Hogar</h2>
+
+    <p>
+      Hemos recorrido ciudades, playas, conciertos,
+      ferias, restaurantes y kilómetros juntos.
+    </p>
+
+    <p class="frase-final">
+      Mi lugar favorito siempre será donde estemos tú y yo juntos ❤️
+    </p>
+
+  </section>
+
+  <!-- MODAL FOTOS -->
+
+  <div id="modal" class="modal oculto">
+
+    <div class="modal-contenido">
+
+      <span id="cerrarModal">&times;</span>
+
+      <h2 id="modalTitulo"></h2>
+
+      <p id="modalFecha"></p>
+
+      <p id="modalTexto"></p>
+
+      <div id="galeriaFotos"></div>
+
+    </div>
+
+  </div>
+
+</body>
+</html>
