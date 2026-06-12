@@ -58,8 +58,17 @@ document.addEventListener("DOMContentLoaded", () => {
       const img =
         document.createElement("img");
 
-      img.src =
-      `photos/${destino.carpeta}/foto${numero}.jpg`;
+      const rutaJpg =
+`photos/${destino.carpeta}/foto${numero}.jpg`;
+
+const rutaJpgMayus =
+`photos/${destino.carpeta}/foto${numero}.JPG`;
+
+img.src = rutaJpg;
+
+img.onerror = () => {
+  img.src = rutaJpgMayus;
+};
 
       img.alt =
       destino.lugar;
