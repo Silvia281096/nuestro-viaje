@@ -150,7 +150,7 @@ translateY(-8px);
 
 .destino:nth-child(odd){
 
-margin-right:auto;
+margin-right:52%;
 
 transform:
 rotate(-2deg);
@@ -159,7 +159,7 @@ rotate(-2deg);
 
 .destino:nth-child(even){
 
-margin-left:auto;
+margin-left:52%;
 
 transform:
 rotate(2deg);
