@@ -436,38 +436,38 @@ text-align:center;
 
 }
 
-#btnComenzar{
+#btnInicio{
 
 background:
-
 linear-gradient(
 90deg,
-#ffb7cb,
-#ffd9a8
+#ffbfd2,
+#ffe2ad
 );
 
 border:none;
 
-padding:
-
-18px 40px;
+padding:20px 45px;
 
 border-radius:999px;
 
-font-size:1.2rem;
+font-size:1.15rem;
 
 cursor:pointer;
 
 box-shadow:
+0 16px 40px rgba(0,0,0,.10);
 
-0 12px 30px rgba(0,0,0,.10);
+transition:.3s;
+
+color:#5a4b4b;
 
 }
 
-#btnComenzar:hover{
+#btnInicio:hover{
 
 transform:
-scale(1.05);
+translateY(-4px);
 
 }
 
