@@ -117,17 +117,17 @@ img.onerror = () => {
 
   // Comenzar aventura
 
-btnComenzar.addEventListener("click", () => {
+document
+.getElementById("btnComenzar")
+?.addEventListener("click", () => {
 
 document
 .getElementById("timeline")
-.style.display="flex";
+?.scrollIntoView({
 
-document
-.getElementById("timeline")
-.scrollIntoView({
+behavior:"smooth",
 
-behavior:"smooth"
+block:"start"
 
 });
 
