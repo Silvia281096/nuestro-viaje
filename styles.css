@@ -60,7 +60,7 @@ button{
   background:#6ea8fe;
 }
 
-##btnInicio{
+#btnComenzar{
   background:#f9c74f;
 }
 
@@ -436,7 +436,7 @@ text-align:center;
 
 }
 
-#btnInicio{
+#btnComenzar{
 
 background:
 linear-gradient(
@@ -464,7 +464,7 @@ color:#5a4b4b;
 
 }
 
-#btnInicio:hover{
+#btnComenzar:hover{
 
 transform:
 translateY(-4px);
