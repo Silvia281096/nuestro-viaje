@@ -60,7 +60,7 @@ button{
   background:#6ea8fe;
 }
 
-#btnComenzar{
+##btnInicio{
   background:#f9c74f;
 }
 
@@ -524,7 +524,7 @@ z-index:2;
 
 }
 
-#btnComenzar{
+##btnInicio{
 
 background:
 
@@ -553,7 +553,7 @@ z-index:2;
 
 }
 
-#btnComenzar:hover{
+##btnInicio:hover{
 
 transform:
 translateY(-4px);
