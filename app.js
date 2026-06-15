@@ -120,16 +120,12 @@ img.onerror = () => {
 btnComenzar.addEventListener("click", () => {
 
 document
-.querySelector(".portada")
-.style.display="none";
-
-document
 .getElementById("timeline")
 .style.display="flex";
 
-window.scrollTo({
-
-top:0,
+document
+.getElementById("timeline")
+.scrollIntoView({
 
 behavior:"smooth"
 
