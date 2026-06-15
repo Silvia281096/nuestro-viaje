@@ -124,7 +124,7 @@ document
 .style.display="none";
 
 document
-.getElementById("timeline")
+.getElementById("ruta")
 .style.display="flex";
 
 window.scrollTo({
@@ -135,7 +135,6 @@ behavior:"smooth"
 
 });
 
-});
 
   // Cuenta atrás Martin Garrix
 
