@@ -117,15 +117,25 @@ img.onerror = () => {
 
   // Comenzar aventura
 
-  btnComenzar.addEventListener("click", () => {
+btnComenzar.addEventListener("click", () => {
 
-    document
-      .getElementById("ruta")
-      .scrollIntoView({
-        behavior:"smooth"
-      });
+document
+.querySelector(".portada")
+.style.display="none";
 
-  });
+document
+.getElementById("timeline")
+.style.display="flex";
+
+window.scrollTo({
+
+top:0,
+
+behavior:"smooth"
+
+});
+
+});
 
   // Cuenta atrás Martin Garrix
 
