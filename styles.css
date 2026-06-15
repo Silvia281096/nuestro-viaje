@@ -76,22 +76,94 @@ button{
 }
 
 #timeline{
-  display:flex;
-  flex-direction:column;
-  gap:35px;
+
+display:flex;
+
+flex-direction:column;
+
+gap:35px;
+
+max-width:900px;
+
+margin:auto;
+
+padding:50px 20px;
+
+position:relative;
+
+}
+
+#timeline::before{
+
+content:"";
+
+position:absolute;
+
+left:50%;
+
+top:0;
+
+bottom:0;
+
+width:5px;
+
+background:
+linear-gradient(
+#ffb8c6,
+#ffd6a5,
+#cde8ff
+);
+
+border-radius:20px;
+
 }
 
 .destino{
-  background:white;
-  border-radius:20px;
-  padding:25px;
-  box-shadow:0 8px 20px rgba(0,0,0,.08);
-  cursor:pointer;
-  transition:.3s;
+
+background:#fffaf7;
+
+padding:22px;
+
+border-radius:24px;
+
+max-width:420px;
+
+margin:30px auto;
+
+cursor:pointer;
+
+box-shadow:
+0 10px 30px rgba(0,0,0,.10);
+
+transition:.35s;
+
+position:relative;
+
 }
 
 .destino:hover{
-  transform:translateY(-5px);
+
+transform:
+translateY(-8px);
+
+}
+
+.destino:nth-child(odd){
+
+margin-right:auto;
+
+transform:
+rotate(-2deg);
+
+}
+
+.destino:nth-child(even){
+
+margin-left:auto;
+
+transform:
+rotate(2deg);
+
 }
 
 .destino h3{
