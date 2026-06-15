@@ -75,7 +75,7 @@ button{
   margin-bottom:50px;
 }
 
-#timeline{
+#ruta{
 
 display:flex;
 
@@ -93,7 +93,7 @@ position:relative;
 
 }
 
-#timeline::before{
+#ruta::before{
 
 content:"";
 
