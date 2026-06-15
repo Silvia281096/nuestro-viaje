@@ -124,7 +124,7 @@ document
 .style.display="none";
 
 document
-.getElementById("ruta")
+.getElementById("timeline")
 .style.display="flex";
 
 window.scrollTo({
@@ -132,6 +132,8 @@ window.scrollTo({
 top:0,
 
 behavior:"smooth"
+
+});
 
 });
 
