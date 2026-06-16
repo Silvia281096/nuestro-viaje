@@ -124,7 +124,7 @@ document
 e.preventDefault();
 
 document
-.getElementById("timeline")
+.getElementById("inicioRuta")
 ?.scrollIntoView({
 
 behavior:"smooth"
