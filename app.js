@@ -119,17 +119,9 @@ img.onerror = () => {
 
 document
 .getElementById("btnComenzar")
-?.addEventListener("click", (e) => {
+?.addEventListener("click", () => {
 
-e.preventDefault();
-
-timeline.scrollIntoView({
-
-behavior:"smooth",
-
-block:"start"
-
-});
+alert("BOTON FUNCIONA");
 
 });
 
