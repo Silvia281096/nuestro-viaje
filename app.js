@@ -119,15 +119,15 @@ img.onerror = () => {
 
 document
 .getElementById("btnComenzar")
-?.addEventListener("click", () => {
+?.addEventListener("click", (e) => {
+
+e.preventDefault();
 
 document
 .getElementById("timeline")
 ?.scrollIntoView({
 
-behavior:"smooth",
-
-block:"start"
+behavior:"smooth"
 
 });
 
