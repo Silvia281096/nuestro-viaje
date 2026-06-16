@@ -659,3 +659,28 @@ font-size:1.1rem;
 color:#666;
 
 }
+
+@media (max-width:768px){
+
+.destino{
+
+transform:none !important;
+
+}
+
+.destino:active{
+
+transform:
+scale(.97);
+
+}
+
+.destino::after{
+
+font-size:1.5rem;
+
+opacity:.08;
+
+}
+
+}
