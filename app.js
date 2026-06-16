@@ -123,11 +123,11 @@ document
 
 e.preventDefault();
 
-document
-.getElementById("inicioRuta")
-?.scrollIntoView({
+timeline.scrollIntoView({
 
-behavior:"smooth"
+behavior:"smooth",
+
+block:"start"
 
 });
 
