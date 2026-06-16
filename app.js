@@ -115,8 +115,9 @@ console.log(error);
 
 }
 
+});
 
-  });
+}
 
 // Comenzar aventura
 
