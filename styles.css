@@ -685,6 +685,29 @@ opacity:.08;
 
 }
 
+.boton-secreto{
+
+margin-top:30px;
+
+padding:16px 30px;
+
+border:none;
+
+border-radius:999px;
+
+background:
+linear-gradient(
+90deg,
+#ffd6e5,
+#ffe9bb
+);
+
+font-size:1rem;
+
+cursor:pointer;
+
+}
+
 .mensaje-secreto{
 
 margin-top:25px;
@@ -701,13 +724,10 @@ margin-right:auto;
 
 }
 
-.boton-secreto:focus
+.boton-secreto:hover
 + .mensaje-secreto,
 
 .boton-secreto:active
-+ .mensaje-secreto,
-
-.boton-secreto:hover
 + .mensaje-secreto{
 
 display:block;
