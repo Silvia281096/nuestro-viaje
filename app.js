@@ -122,7 +122,7 @@ document
 ?.addEventListener("click", () => {
 
 document
-.getElementById("ruta")
+.getElementById("timeline")
 ?.scrollIntoView({
 
 behavior:"smooth",
