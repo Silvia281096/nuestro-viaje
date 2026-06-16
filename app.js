@@ -96,9 +96,9 @@ img.onerror = () => {
 
   });
 
-  // Música
+// Música
 
-if(btnMusica){
+if(btnMusica && musica){
 
 btnMusica.addEventListener("click", async () => {
 
@@ -115,19 +115,27 @@ console.log(error);
 
 }
 
-});
-
-}
 
   });
 
 // Comenzar aventura
 
-btnComenzar.addEventListener("click", () => {
+if(btnComenzar){
 
-alert("BOTON FUNCIONA");
+btnComenzar.addEventListener("click",()=>{
+
+window.scrollTo({
+
+top:
+window.innerHeight,
+
+behavior:"smooth"
 
 });
+
+});
+
+}
 
 
   // Cuenta atrás Martin Garrix
