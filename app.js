@@ -98,20 +98,26 @@ img.onerror = () => {
 
   // Música
 
-  btnMusica.addEventListener("click", async () => {
+if(btnMusica){
 
-    try{
+btnMusica.addEventListener("click", async () => {
 
-      await musica.play();
+try{
 
-      btnMusica.textContent =
-      "🎵 Banda sonora activada";
+await musica.play();
 
-    }catch(error){
+btnMusica.textContent =
+"🎵 Banda sonora activada";
 
-      console.log(error);
+}catch(error){
 
-    }
+console.log(error);
+
+}
+
+});
+
+}
 
   });
 
