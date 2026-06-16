@@ -684,3 +684,32 @@ opacity:.08;
 }
 
 }
+
+.mensaje-secreto{
+
+margin-top:25px;
+
+display:none;
+
+line-height:2;
+
+max-width:600px;
+
+margin-left:auto;
+
+margin-right:auto;
+
+}
+
+.boton-secreto:focus
++ .mensaje-secreto,
+
+.boton-secreto:active
++ .mensaje-secreto,
+
+.boton-secreto:hover
++ .mensaje-secreto{
+
+display:block;
+
+}
