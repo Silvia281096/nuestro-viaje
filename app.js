@@ -115,11 +115,9 @@ img.onerror = () => {
 
   });
 
-  // Comenzar aventura
+// Comenzar aventura
 
-document
-.getElementById("btnComenzar")
-?.addEventListener("click", () => {
+btnComenzar.addEventListener("click", () => {
 
 alert("BOTON FUNCIONA");
 
