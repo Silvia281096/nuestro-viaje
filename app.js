@@ -99,25 +99,21 @@ img.onerror = () => {
 
   });
 
-// Música
 
-window.addEventListener("click",()=>{
-
-if(musica && musica.paused){
-
-musica.volume=.35;
-
-musica.play();
-
-}
-
-},{once:true});
 
 // Comenzar aventura
 
 if(btnComenzar){
 
 btnComenzar.addEventListener("click",()=>{
+
+if(musica){
+
+musica.volume=.35;
+
+musica.play();
+
+}
 
 window.scrollTo({
 
