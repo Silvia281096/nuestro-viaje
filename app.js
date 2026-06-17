@@ -135,6 +135,9 @@ behavior:"smooth"
 const abrirBonus =
 document.getElementById("abrirBonus");
 
+const abrirBonus =
+document.getElementById("abrirBonus");
+
 if(abrirBonus){
 
 abrirBonus.addEventListener("click",()=>{
@@ -165,10 +168,6 @@ if(musicaBonus){
 musicaBonus.volume=.5;
 
 musicaBonus.play();
-
-}
-
-});
 
 }
 
