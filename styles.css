@@ -832,3 +832,16 @@ margin-top:40px;
 font-weight:600;
 
 }
+
+.destino{
+
+transition:.35s;
+
+}
+
+.destino:hover{
+
+transform:
+translateY(-8px);
+
+}
