@@ -733,3 +733,38 @@ margin-right:auto;
 display:block;
 
 }
+.bonus{
+
+display:none;
+
+}
+
+.bonus.visible{
+
+display:block;
+
+animation:
+fadeBonus .8s ease;
+
+}
+
+@keyframes fadeBonus{
+
+from{
+
+opacity:0;
+
+transform:
+translateY(30px);
+
+}
+
+to{
+
+opacity:1;
+
+transform:none;
+
+}
+
+}

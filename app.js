@@ -139,6 +139,21 @@ if(abrirBonus){
 
 abrirBonus.addEventListener("click",()=>{
 
+const bonus =
+document.querySelector(".bonus");
+
+if(bonus){
+
+bonus.classList.add("visible");
+
+bonus.scrollIntoView({
+
+behavior:"smooth"
+
+});
+
+}
+
 if(musica){
 
 musica.pause();
@@ -150,6 +165,10 @@ if(musicaBonus){
 musicaBonus.volume=.5;
 
 musicaBonus.play();
+
+}
+
+});
 
 }
 
