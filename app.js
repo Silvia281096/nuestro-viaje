@@ -135,8 +135,6 @@ behavior:"smooth"
 const abrirBonus =
 document.getElementById("abrirBonus");
 
-const abrirBonus =
-document.getElementById("abrirBonus");
 
 if(abrirBonus){
 
