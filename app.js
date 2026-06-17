@@ -15,6 +15,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const musica = document.getElementById("musicaPrincipal");
 
+  const musicaBonus =
+document.getElementById("musicaBonus");
+
   // Crear ruta automáticamente
 
  window.destinos.forEach(destino => {
@@ -98,20 +101,17 @@ img.onerror = () => {
 
 // Música
 
-if(btnMusica && musica){
+window.addEventListener("click",()=>{
 
-btnMusica.addEventListener("click", async () => {
+if(musica.paused){
 
-try{
+musica.volume=.35;
 
-await musica.play();
+musica.play();
 
-btnMusica.textContent =
-"🎵 Banda sonora activada";
+}
 
-}catch(error){
-
-console.log(error);
+},{once:true});
 
 }
 
@@ -138,6 +138,30 @@ behavior:"smooth"
 
 }
 
+const abrirBonus =
+document.getElementById("abrirBonus");
+
+if(abrirBonus){
+
+abrirBonus.addEventListener("click",()=>{
+
+if(musica){
+
+musica.pause();
+
+}
+
+if(musicaBonus){
+
+musicaBonus.volume=.5;
+
+musicaBonus.play();
+
+}
+
+});
+
+}
 
   // Cuenta atrás Martin Garrix
 
