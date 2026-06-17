@@ -103,7 +103,7 @@ img.onerror = () => {
 
 window.addEventListener("click",()=>{
 
-if(musica.paused){
+if(musica && musica.paused){
 
 musica.volume=.35;
 
@@ -112,12 +112,6 @@ musica.play();
 }
 
 },{once:true});
-
-}
-
-});
-
-}
 
 // Comenzar aventura
 
