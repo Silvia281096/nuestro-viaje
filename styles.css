@@ -790,3 +790,23 @@ margin-right:auto;
 text-align:center;
 
 }
+
+section{
+
+padding-top:90px;
+
+padding-bottom:90px;
+
+}
+
+h1,h2{
+
+letter-spacing:.03em;
+
+}
+
+p{
+
+line-height:1.9;
+
+}
