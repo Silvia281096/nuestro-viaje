@@ -743,6 +743,12 @@ display:none;
 
 display:block;
 
+}
+
+.bonus.visible{
+
+display:block;
+
 animation:
 fadeBonus .8s ease;
 
